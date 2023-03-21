@@ -1,0 +1,168 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Cold Play Argentina Concert",
+      "description": "Coldplay es una banda británica de pop rock y rock alternativo formada en Londres en 1996.​​ Está integrada por Chris Martin, Jon Buckland, Guy Berryman y Will Champion.",
+      "city": "Buenos Aires",
+      "tags": ["heavy metal", "pop"],
+      "img" : "https://i.seadn.io/gae/2jAQDfR6NXH5SVROniFYkF4LzbxMx99_vib9aGba6MQtJqlSumgfT3_YTGQlF64VoSksXnEXvv76gr-FhRmMOeEiBRNbaf5NRaux9Q?auto=format&w=400",
+      "tickets_types": [
+        {
+          "id": 1,
+          "name": "Cold Play Argentina Concert",
+          "date": "01/02/2022",
+          "time": "24:00:45",
+          "address": "Av. Pres. Figueroa Alcorta 7597",
+          "place": "Estadio River Plate",
+          "city": "Buenos Aires",
+          "sections": [
+            {
+              "id": 1,
+              "description": "general",
+              "price": 4500,
+              "currency": "ARS",
+              "available": 300
+            },
+            {
+              "id": 2,
+              "description": "palco",
+              "price": 6500,
+              "currency": "ARS",
+              "available": 100
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "name": "Cold Play Argentina Concert",
+          "date": "10/02/2022",
+          "time": "24:00:45",
+          "price": 4500,
+          "currency": "ARS",
+          "address": "Av. Pres. Figueroa Alcorta 7597",
+          "place": "Estadio River Plate",
+          "city": "Buenos Aires",
+          "available": 300,
+          "sections": [
+            {
+              "id": 1,
+              "description": "general",
+              "price": 4500,
+              "currency": "ARS",
+              "available": 300
+            },
+            {
+              "id": 2,
+              "description": "palco",
+              "price": 6500,
+              "currency": "ARS",
+              "available": 100
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "David Guetta Argentina Concert",
+      "description": "Pierre David Guetta​​​ es un DJ, compositor y productor francés. Actualmente, ocupa el puesto #2 según la encuesta realizada por DJ Magazine.​Se inició como tal en varias discotecas durante las décadas de 1980 y de 1990, antes de fundar Gum Productions y lanzar su primer álbum: Just a Little More Love.",
+      "city": "Buenos Aires",
+      "tags": ["heavy metal", "pop"],
+      "img" : "https://imagenes.passline.com/eventos/soda-stereo-mtv-unplugged-comfort-y-musica-para-volar-con-parlantes-holofonicos-123735-min.jpg",
+      "tickets": [
+        {
+          "id": 1,
+          "name": "David Guetta Argentina Concert",
+          "date": "01/02/2022",
+          "time": "24:00:45",
+          "price": 4500,
+          "currency": "ARS",
+          "address": "Av. Pres. Figueroa Alcorta 7597",
+          "place": "Estadio River Plate",
+          "city": "Buenos Aires",
+          "available": 300
+
+        },
+        {
+          "id": 2,
+          "name": "David Guetta Argentina Concert",
+          "date": "10/02/2022",
+          "time": "24:00:45",
+          "price": 4500,
+          "currency": "ARS",
+          "address": "Av. Pres. Figueroa Alcorta 7597",
+          "place": "Estadio River Plate",
+          "city": "Buenos Aires",
+          "available": 300
+
+        }
+      ]
+    }, 
+    {
+      "id": 3,
+      "name": "David Guetta Argentina Concert",
+      "description": "Pierre David Guetta​​​ es un DJ, compositor y productor francés. Actualmente, ocupa el puesto #2 según la encuesta realizada por DJ Magazine.​Se inició como tal en varias discotecas durante las décadas de 1980 y de 1990, antes de fundar Gum Productions y lanzar su primer álbum: Just a Little More Love.",
+      "city": "Buenos Aires",
+      "tags": ["heavy metal", "pop"],
+      "img" : "https://imagenes.passline.com/eventos/soda-stereo-mtv-unplugged-comfort-y-musica-para-volar-con-parlantes-holofonicos-123735-min.jpg",
+      "tickets": [
+        {
+          "id": 1,
+          "name": "David Guetta Argentina Concert",
+          "date": "01/02/2022",
+          "time": "24:00:45",
+          "price": 4500,
+          "currency": "ARS",
+          "address": "Av. Pres. Figueroa Alcorta 7597",
+          "place": "Estadio River Plate",
+          "city": "Buenos Aires",
+          "available": 300
+
+        },
+        {
+          "id": 2,
+          "name": "David Guetta Argentina Concert",
+          "date": "10/02/2022",
+          "time": "24:00:45",
+          "price": 4500,
+          "currency": "ARS",
+          "address": "Av. Pres. Figueroa Alcorta 7597",
+          "place": "Estadio River Plate",
+          "city": "Buenos Aires",
+          "available": 300
+
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "name": "Cold Play - Argentina Concert",
+      "date": "2022-12-11",
+      "bookings": [
+        {
+          "pk": 2,
+          "id": "39a3826f-2ca8-4d74-86fc-d221af6ef84b",
+          "name": "Cold Play - Argentina Concert",
+          "area": "General",
+          "price": 12000,
+          "address": "Av. Pres. Figueroa Alcorta 7597",
+          "place": null,
+          "city": null,
+          "status": true,
+          "date": "2022-12-11",
+          "img": "https://i.seadn.io/gae/2jAQDfR6NXH5SVROniFYkF4LzbxMx99_vib9aGba6MQtJqlSumgfT3_YTGQlF64VoSksXnEXvv76gr-FhRmMOeEiBRNbaf5NRaux9Q?auto=format&w=400",
+          "createdAt": "2022-12-01T16:38:55.000Z",
+          "user_id": 1
+        }
+      ] 
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

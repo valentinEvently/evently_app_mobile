@@ -1,0 +1,40 @@
+{
+  "expo": {
+    
+    "name": "EventlyLifeFront",
+    "slug": "EventlyLifeFront",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/SplashLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080029"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.Evently.Evently"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "13bc4fed-e211-451d-808b-e4a47f0bc2bc"
+      }
+    }
+  }
+}
